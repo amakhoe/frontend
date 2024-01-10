@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="nav">
+        <H3><b>INFORDATA</b> lda</H3>
+        <button>10/01/2023</button>
+    </div>
+    <div id="main">
+        <div id="page">
+            <div id="loop">
+                <h1><b>INFORDATA</b> LDA.<b><i> SOLUCOES TECNOLOGICAS</i></b><span> DESENVOLVIMENTO DE WEBSITE</span></h1>
+                <h1><b>INFORDATA</b> LDA.<b><i> SOLUCOES TECNOLOGICAS</i></b><span> DESENVOLVIMENTO DE WEBSITE</span></h1>
+                <h1><b>INFORDATA</b> LDA.<b><i> SOLUCOES TECNOLOGICAS</i></b><span> DESENVOLVIMENTO DE WEBSITE</span></h1>
+            </div>
+            <h3>INFORDATA ESTA NO MERCADO A MAIS DE UMA DECADA E VEM DESENVOLVENDO, PROJECTOS DE GRANDE ESCALA A NIVEL NACIONAL E INTERNACIONAL</h3>
+       <canvas></canvas> 
+        </div>
+        <div id="page1"></div>
+        <div id="page2"></div>
+        <div id="page3"></div>
+    </div>
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js" integrity="sha512-Ic9xkERjyZ1xgJ5svx3y0u3xrvfT/uPkV99LBwe68xjy/mGtO+4eURHZBW2xW4SZbFrF1Tf090XqB+EVgXnVjw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="script.js"></script>
+<script>
+    ScroolTrigger.create({
+        trigger: "#page>canvas",
+        pin:true,
+        scroller: `#main`,
+        start: `top top`,
+        end: `600% top`
+    })
+</script>
+</html>
